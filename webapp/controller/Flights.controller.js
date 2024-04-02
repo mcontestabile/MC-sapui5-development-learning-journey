@@ -7,7 +7,7 @@ sap.ui.define([
     function (Controller) {
         "use strict";
 
-        return Controller.extend("student00.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights", {
+        return Controller.extend("student.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.Flights", {
             onInit: function () {
                 var oRouter = this.getRouter();
                 oRouter.getRoute("flights").attachMatched(this._onObjectMatched, this);
